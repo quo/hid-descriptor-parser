@@ -1,0 +1,2389 @@
+# From: https://gitlab.freedesktop.org/libevdev/hid-tools/-/tree/master/hidtools/data
+# Original data: https://usb.org/sites/default/files/hut1_3_0.pdf
+(00)	Undefined
+00	Undefined
+01-FFFF	Reserved
+(01)	Generic Desktop
+00	Undefined
+01	Pointer
+02	Mouse
+03	Reserved
+04	Joystick
+05	Game Pad
+06	Keyboard
+07	Keypad
+08	Multi Axis
+09	Reserved
+0A	Water Cooling Device
+0B	Computer Chassis Device
+0C	Wireless Radio Controls
+0D	Portable Device Control
+0E	System Multi-Axis Controller
+0F	Spatial Controller
+10	Assistive Control
+11-2F	Reserved
+30	X
+31	Y
+32	Z
+33	Rx
+34	Ry
+35	Rz
+36	Slider
+37	Dial
+38	Wheel
+39	Hat switch
+3A	Counted Buffer
+3B	Byte Count
+3C	Motion
+3D	Start
+3E	Select
+3F	Reserved
+40	Vx
+41	Vy
+42	Vz
+43	Vbrx
+44	Vbry
+45	Vbrz
+46	Vno
+47	Feature
+48	Resolution Multiplier
+49	Qx
+4A	Qy
+4B	Qz
+4C	Qw
+4D-7F	Reserved
+80	System Control
+81	System Power Down
+82	System Sleep
+83	System Wake Up
+84	System Context Menu
+85	System Main Menu
+86	System App Menu
+87	System Help Menu
+88	System Menu Exit
+89	System Menu Select
+8A	System Menu Right
+8B	System Menu Left
+8C	System Menu Up
+8D	System Menu Down
+8E	System Cold Restart
+8F	System Warm Restart
+90	D-Pad Up
+91	D-Pad Down
+92	D-Pad Right
+93	D-Pad Left
+94	Index Trigger
+95	Palm Trigger
+96	Thumbstick
+97	System Function Shift
+98	System Function Shift Lock
+99	System Function Shift Lock Indicator
+9A	System Dismiss Notification
+9B-9F	Reserved
+A0	System Dock
+A1	System UnDock
+A2	System Setup
+A3	System Break
+A4	System Debugger Break
+A5	Application Break
+A6	Application Debugger Break
+A7	System Speaker Mute
+A8	System Hibernate
+A9-AF	Reserved
+B0	System Display Invert
+B1	System Display Internal
+B2	System Display External
+B3	System Display Both
+B4	System Display Dual
+B5	System Display Toggle Internal External
+B6	System Display Swap Primary Secondary
+B7	System Display LCDAuto Scale
+B8-BF	Reserved
+C0	Sensor Zone
+C1	RPM
+C2	Coolant Level
+C3	Coolant Critical Level
+C4	Coolant Pump
+C5	Chassis Enclosure
+C6	Wireless Radio Button
+C7	Wireless Radio LED
+C8	Wireless Radio Slider Switch
+C9	System Display Rotation Lock Button
+CA	System Display Rotation Lock Slider Switch
+CB	Control Enable
+CC-FFFF	Reserved
+(02)	Simulation Controls
+00	Undefined
+01	Flight Simulation Device
+02	Automobile Simulation Device
+03	Tank Simulation Device
+04	Spaceship Simulation Device
+05	Submarine Simulation Device
+06	Sailing Simulation Device
+07	Motorcycle Simulation Device
+08	Sports Simulation Device
+09	Airplane Simulation Device
+0A	Helicopter Simulation Device
+0B	Magic Carpet Simulation Device
+0C	Bicycle
+0D-1F	reserved
+20	Flight Control Stick
+21	Flight Stick
+22	Cyclic Control
+23	Cyclic Trim
+24	Flight Yoke
+25	Track Control
+26	Driving Control
+27-CF	reserved
+B0	Aileron
+B1	Aileron Trim
+B2	Anti-Torque Control
+B3	Auto-pilot enable
+B4	Chaff Release
+B5	Collective Control
+B6	Dive Brake
+B7	Electronic Counter Measures
+B8	Elevator
+B9	Elevator Trim
+BA	Rudder
+BB	Throttle
+BC	Flight Communication
+BD	Flare Release
+BE	Landing Gear
+BF	Toe Brake
+C0	Trigger
+C1	Weapons Arm
+C2	Weapons Select
+C3	Wing Flaps
+C4	Accelerator
+C5	Brake
+C6	Clutch
+C7	Shifter
+C8	Steering
+C9	Turret Direction
+CA	Barrel Elevation
+CB	Dive Plane
+CC	Ballast
+CD	Bicycle Crank
+CE	Handle Bars
+CF	Front Brake
+D0	Rear Brake
+D1-FFFF	reserved
+(03)	VR Controls
+00	Unidentified
+01	Belt
+02	Body Suit
+03	Flexor
+04	Glove
+05	Head Tracker
+06	Head Mounted Display
+07	Hand Tracker
+08	Oculometer
+09	Vest
+0A	Animatronic Device
+0B-1F	Reserved
+20	Stereo Enable
+21	Display Enable
+22-FFFF	Reserved
+(04)	Sports Controls
+00	Unidentified
+01	Baseball Bat
+02	Golf Club
+03	Rowing Machine
+04	Treadmill
+05-2F	Reserved
+30	Oar
+31	Slope
+32	Rate
+33	Stick Speed
+34	Stick Face Angle
+35	Stick Heel/Toe
+36	Stick Follow Through
+37	Stick Tempo
+38	Stick Type
+39	Stick Height
+3A-4F	Reserved
+50	Putter
+51	1 Iron
+52	2 Iron
+53	3 Iron
+54	4 Iron
+55	5 Iron
+56	6 Iron
+57	7 Iron
+58	8 Iron
+59	9 Iron
+5A	10 Iron
+5B	11 Iron
+5C	Sand Wedge
+5D	Loft Wedge
+5E	Power Wedge
+5F	1 Wood
+60	3 Wood
+61	5 Wood
+62	7 Wood
+63	9 Wood
+64-FFFF	Reserved
+(05)	Gaming Controls
+00	Undefined
+01	3D Game Controller
+02	Pinball Device
+03	Gun Device
+04-1F	Reserved
+20	Point of View
+21	Turn Right/Left
+22	Pitch Forward/Backward
+23	Roll Right/Left
+24	Move Right/Left
+25	Move Forward/Backward
+26	Move Up/Down
+27	Lean Right/Left
+28	Lean Forward/Backward
+29	Height of POV
+2A	Flipper
+2B	Secondary Flipper
+2C	Bump
+2D	New Game
+2E	Shoot Ball
+2F	Player
+30	Gun Bolt
+31	Gun Clip
+32	Gun Selector
+33	Gun Single Shot
+34	Gun Burst
+35	Gun Automatic
+36	Gun Safety
+37	Gamepad Fire/Jump
+38	Reserved
+39	Gamepad Trigger
+3A	Form-fitting gamepad
+3B-FFFF	Reserved
+(06)	Generic Device Controls
+00	Unidentified
+01	Background Controls
+02-1F	Reserved
+20	Battery Strength
+21	Wireless Channel
+22	Wireless ID
+23	Discover Wireless Control
+24	Security Code Character Entered
+25	Security Code Character Erased
+26	Security Code Cleared
+27	Sequence ID
+28	Sequence ID Reset
+29	RF Signal Strength
+2A	Software Version
+2B	Protocol Version
+2C	Hardware Version
+2D	Major
+2E	Minor
+2F	Revision
+30	Handedness
+31	Either Hand
+32	Left Hand
+33	Right Hand
+34	Both Hands
+35-3F	Reserved
+40	Grip Pose Offset
+41	Pointer Pose Offset
+42-FFFF	Reserved
+(07)	Keyboard
+00	Reserved (no event indicated)
+01	ErrorRollOver
+02	POSTFail
+03	ErrorUndefine
+04	a and A
+05	b and B
+06	c and C
+07	d and D
+08	e and E
+09	f and F
+0A	g and G
+0B	h and H
+0C	i and I
+0D	j and J
+0E	k and K
+0F	l and L
+10	m and M
+11	n and N
+12	o and O
+13	p and P
+14	q and Q
+15	r and R
+16	s and S
+17	t and T
+18	u and U
+19	v and V
+1A	w and W
+1B	x and X
+1C	y and Y
+1D	z and Z
+1E	1 and !
+1F	2 and @
+20	3 and #
+21	4 and $
+22	5 and %
+23	6 and ^
+24	7 and &
+25	8 and *
+26	9 and (
+27	0 and )
+28	Return (ENTER)
+29	ESCAPE
+2A	DELETE (Backspace)
+2B	Tab
+2C	Spacebar
+2D	- and (underscore)
+2E	= and +
+2F	[ and {
+30	] and }
+31	\ and |
+32	Non-US # and ~
+33	; and :
+34	' and "
+35	Grave Accent and Tilde
+36	Keyboard, and <
+37	. and >
+38	/ and ?
+39	Caps Lock
+3A	F1
+3B	F2
+3C	F3
+3D	F4
+3E	F5
+3F	F6
+40	F7
+41	F8
+42	F9
+43	F10
+44	F11
+45	F12
+46	PrintScreen
+47	Scroll Lock
+48	Pause
+49	Insert
+4A	Home
+4B	PageUp
+4C	Delete Forward
+4D	End
+4E	PageDown
+4F	RightArrow
+50	LeftArrow
+51	DownArrow
+52	UpArrow
+53	Keypad Num Lock and Clear
+54	Keypad /
+55	Keypad *
+56	Keypad -
+57	Keypad +
+58	Keypad ENTER
+59	Keypad 1 and End
+5A	Keypad 2 and Down Arrow
+5B	Keypad 3 and PageDn
+5C	Keypad 4 and Left Arrow
+5D	Keypad 5
+5E	Keypad 6 and Right Arrow
+5F	Keypad 7 and Home
+60	Keypad 8 and Up Arrow
+61	Keypad 9 and PageUp
+62	Keypad 0 and Insert
+63	Keypad . and Delete
+64	Non-US \ and |
+65	Application
+66	Power
+67	Keypad =
+68	F13
+69	F14
+6A	F15
+6B	F16
+6C	F17
+6D	F18
+6E	F19
+6F	F20
+70	F21
+71	F22
+72	F23
+73	F24
+74	Execute
+75	Help
+76	Menu
+77	Select
+78	Stop
+79	Again
+7A	Undo
+7B	Cut
+7C	Copy
+7D	Paste
+7E	Find
+7F	Mute
+80	Volume Up
+81	Volume Down
+82	Locking Caps Lock
+83	Locking Num Lock
+84	Locking Scroll Lock
+85	Keypad Comma
+86	Keypad Equal Sign
+87	Kanji1
+88	Kanji2
+89	Kanji3
+8A	Kanji4
+8B	Kanji5
+8C	Kanji6
+8D	Kanji7
+8E	Kanji8
+8F	Kanji9
+90	LANG1
+91	LANG2
+92	LANG3
+93	LANG4
+94	LANG5
+95	LANG6
+96	LANG7
+97	LANG8
+98	LANG9
+99	Alternate Erase
+9A	SysReq/Attention
+9B	Cancel
+9C	Clear
+9D	Prior
+9E	Return
+9F	Separator
+A0	Out
+A1	Oper
+A2	Clear/Again
+A3	CrSel/Props
+A4	ExSel
+A5-DF	Reserved
+E0	LeftControl
+E1	LeftShift
+E2	LeftAlt
+E3	Left GUI
+E4	RightControl
+E5	RightShift
+E6	RightAlt
+E7	Right GUI
+E8-FFFF	Reserved
+(08)	LEDs
+00	Undefined
+01	Num Lock
+02	Caps Lock
+03	Scroll Lock
+04	Compose
+05	Kana
+06	Power
+07	Shift
+08	Do Not Disturb
+09	Mute
+0A	Tone Enable
+0B	High Cut Filter
+0C	Low Cut Filter
+0D	Equalizer Enable
+0E	Sound Field On
+0F	Surround field On
+10	Repeat
+11	Stereo
+12	Sampling Rate Detect
+13	Spinning
+14	CAV
+15	CLV
+16	Recording Format Detect
+17	Off-Hook
+18	Ring
+19	Message Waiting
+1A	Data Mode
+1B	Battery Operation
+1C	Battery OK
+1D	Battery Low
+1E	Speaker
+1F	Head Set
+20	Hold
+21	Microphone
+22	Coverage
+23	Night Mode
+24	Send Calls
+25	Call Pickup
+26	Conference
+27	Stand-by
+28	Camera On
+29	Camera Off
+2A	On-Line
+2B	Off-Line
+2C	Busy
+2D	Ready
+2E	Paper-Out
+2F	Paper-Jam
+30	Remote
+31	Forward
+32	Reverse
+33	Stop
+34	Rewind
+35	Fast Forward
+36	Play
+37	Pause
+38	Record
+39	Error
+3A	Usage Selected Indicator
+3B	Usage In Use Indicator
+3C	Usage Multi Mode Indicator
+3D	Indicator On
+3E	Indicator Flash
+3F	Indicator Slow Blink
+40	Indicator Fast Blink
+41	Indicator Off
+42	Flash On Time
+43	Slow Blink On Time
+44	Slow Blink Off Time
+45	Fast Blink On Time
+46	Fast Blink Off Time
+47	Usage Indicator Color
+48	Indicator Red
+49	Indicator Green
+4A	Indicator Amber
+4B	Generic Indicator
+4C	System Suspend
+4D	External Power Connected
+4E	Indicator Blue
+4F	Indicator Orange
+50	Good Status
+51	Warning Status
+52	RGBLED
+53	Red LEDChannel
+54	Greed LEDChannel
+55	Blue LEDChannel
+56	LEDIntensity
+57-FFFF	Reserved
+57-5F	Reserved
+60	Player Indicator
+61	Player 1
+62	Player 2
+63	Player 3
+64	Player 4
+65	Player 5
+66	Player 6
+67	Player 7
+68	Player 8
+69-FFFF	Reserved
+(09)	Button
+00	No Buttons Pressed
+(0a)	Ordinals
+00	Unused
+(0b)	Telephony Devices
+00	Unassigned
+01	Phone
+02	Answering Machine
+03	Message Controls
+04	Handset
+05	Headset
+06	Telephony Key Pad
+07	Programmable Button
+08-1F	Reserved
+20	Hook Switch
+21	Flash
+22	Feature
+23	Hold
+24	Redial
+25	Transfer
+26	Drop
+27	Park
+28	Forward Calls
+29	Alternate Function
+2A	Line OSC
+2B	Speaker Phone
+2C	Conference
+2D	Ring Enable
+2E	Ring Select
+2F	Phone Mute
+30	Caller ID
+31	Send
+32-4F	Reserved
+50	Speed Dial
+51	Store Number
+52	Recall Number
+53	Phone Directory
+54-6F	Reserved
+70	Voice Mail
+71	Screen Calls
+72	Do Not Disturb
+73	Message
+74	Answer On/Off
+75-8F	Reserved
+90	Inside Dial Tone
+91	Outside Dial Tone
+92	Inside Ring Tone
+93	Outside Ring Tone
+94	Priority Ring Tone
+95	Inside Ringback
+96	Priority Ringback
+97	Line Busy Tone
+98	Reorder Tone
+99	Call Waiting Tone
+9A	Confirmation Tone 1
+9B	Confirmation Tone 2
+9C	Tones Off
+9D	Outside Ringback
+9E	Ringer
+9F-AF	Reserved
+B0	Phone Key 0
+B1	Phone Key 1
+B2	Phone Key 2
+B3	Phone Key 3
+B4	Phone Key 4
+B5	Phone Key 5
+B6	Phone Key 6
+B7	Phone Key 7
+B8	Phone Key 8
+B9	Phone Key 9
+BA	Phone Key Star
+BB	Phone Key Pound
+BC	Phone Key A
+BD	Phone Key B
+BE	Phone Key C
+BF	Phone Key D
+C0	Phone Call History Key
+C1	Phone Caller ID Key
+C2	Phone Settings Key
+C3-DF	Reserved
+F0	Host Control
+F1	Host Available
+F2	Host Call Active
+F3	Activate Handset Audio
+F4	Ring Type
+F5	Re-dialable Phone Number
+F6-F7	Reserved
+F8	Stop Ring Tone
+F9	PSTN Ring Tone
+FA	Host Ring Tone
+FB	Alert Sound Error
+FC	Alert Sound Confirm
+FD	Alert Sound Notification
+FE	Silent Ring
+FF-107	Reserved
+108	Email Message Waiting
+109	oicemail Message Waiting
+10A	ost Hold
+109-10F	Reserved
+110	Incoming Call History Count
+111	Outgoing Call History Count
+112	Incoming Call History
+113	Outgoing Call History
+114	Phone Locale
+115-13F	Reserved
+140	Phone Time Second
+141	Phone Time Minute
+142	Phone Time Hour
+143	Phone Date Day
+144	Phone Date Month
+145	Phone Date Year
+146	Handset Nickname
+147	Address Book ID
+14A	Call Duration
+14B	Dual Mode Phone
+14C-FFFF	Reserved
+(0c)	Consumer Devices
+01	Consumer Control
+02	Numeric Key Pad
+03	Programmable Buttons
+04	Microphone
+05	Headphone
+06	Graphic Equalizer
+07-1F	Reserved
+20	+10
+21	+100
+22	AM/PM
+23-2F	Reserved
+30	Power
+31	Reset
+32	Sleep
+33	Sleep After
+34	Sleep Mode
+35	Illumination
+36	Function Buttons
+37-3F	Reserved
+40	Menu
+41	Menu Pick
+42	Menu Up
+43	Menu Down
+44	Menu Left
+45	Menu Right
+46	Menu Escape
+47	Menu Value Increase
+48	Menu Value Decrease
+49-5F	Reserved
+60	Data On Screen
+61	Closed Caption
+62	Closed Caption Select
+63	VCR/TV
+64	Broadcast Mode
+65	Snapshot
+66	Still
+67	Picture-in-Picture Toggle
+68	Picture-in-Picture Swap
+69	Red Menu Button
+6A	Green Menu Button
+6B	Blue Menu Button
+6C	Yellow Menu Button
+6D	Aspect
+6E	3D Mode Select
+6F	Display Brightness Increment
+70	Display Brightness Decrement
+71	Display Brightness
+72	Display Backlight Toggle
+73	Display Set Brightness to Minimum
+74	Display Set Brightness to Maximum
+75	Display Set Auto Brightness
+76	Camera Access Enabled
+77	Camera Access Disabled
+78	Camera Access Toggle
+79	Keyboard Brightness Increment 
+7A	Keyboard Brightness Decrement
+7B	Keyboard Backlight Set Level
+7C	Keyboard Backlight OOC
+7D	Keyboard Backlight Set Minimum
+7E	Keyboard Backlight Set Maximum
+7F	Keyboard Backlight Auto
+80	Selection
+81	Assign Selection
+82	Mode Step
+83	Recall Last
+84	Enter Channel
+85	Order Movie
+86	Channel
+87	Media Selection
+88	Media Select Computer
+89	Media Select TV
+8A	Media Select WWW
+8B	Media Select DVD
+8C	Media Select Telephone
+8D	Media Select Program Guide
+8E	Media Select Video Phone
+8F	Media Select Games
+90	Media Select Messages
+91	Media Select CD
+92	Media Select VCR
+93	Media Select Tuner
+94	Quit
+95	Help
+96	Media Select Tape
+97	Media Select Cable
+98	Media Select Satellite
+99	Media Select Security
+9A	Media Select Home
+9B	Media Select Call
+9C	Channel Increment
+9D	Channel Decrement
+9E	Media Select SAP
+9F-9F	Reserved
+A0	VCR Plus
+A1	Once
+A2	Daily
+A3	Weekly
+A4	Monthly
+A5-AF	Reserved
+B0	Play
+B1	Pause
+B2	Record
+B3	Fast Forward
+B4	Rewind
+B5	Scan Next Track
+B6	Scan Previous Track
+B7	Stop
+B8	Eject
+B9	Random Play
+BA	Select Disc
+BB	Enter Disc
+BC	Repeat
+BD	Tracking
+BE	Track Normal
+BF	Slow Tracking
+C0	Frame Forward
+C1	Frame Back
+C2	Mark
+C3	Clear Mark
+C4	Repeat From Mark
+C5	Return To Mark
+C6	Search Mark Forward
+C7	Search Mark Backwards
+C8	Counter Reset
+C9	Show Counter
+CA	Tracking Increment
+CB	Tracking Decrement
+CC	Stop/Eject
+CD	Play/Pause
+CE	Play/Skip
+CF	Voice Command
+D0	Invoke Capture Interface
+D1	Start or Stop Game Recording
+D2	Historical Game Capture
+D3	Capture Game Screenshot
+D4	Show or Hide Recording Indicator
+D5	Start or Stop Microphone Capture
+D6	Start or Stop Camera Capture
+D7	Start or Stop Game Broadcast
+D8-DF	Reserved
+E0	Volume
+E1	Balance
+E2	Mute
+E3	Bass
+E4	Treble
+E5	Bass Boost
+E6	Surround Mode
+E7	Loudness
+E8	MPX
+E9	Volume Up
+EA	Volume Down
+EB-EF	Reserved
+F0	Speed Select
+F1	Playback Speed
+F2	Standard Play
+F3	Long Play
+F4	Extended Play
+F5	Slow
+F6-FF	Reserved
+100	Fan Enable
+101	Fan Speed
+102	Light Enable
+103	Light Illumination Level
+104	Climate Control Enable
+105	Room Temperature
+106	Security Enable
+107	Fire Alarm
+108	Police Alarm
+109	Proximity
+10A	Motion
+10B	Duress Alarm
+10C	Holdup Alarm
+10D	Medical Alarm
+10E-14F	Reserved
+150	Balance Right
+151	Balance Left
+152	Bass Increment
+153	Bass Decrement
+154	Treble Increment
+155	Treble Decrement
+156-15F	Reserved
+160	Speaker System
+161	Channel Left
+162	Channel Right
+163	Channel Center
+164	Channel Front
+165	Channel Center Front
+166	Channel Side
+167	Channel Surround
+168	Channel Low Freq Enhancement
+169	Channel Top
+16A	Channel Unknown
+16B-16F	Reserved
+170	Sub-channel
+171	Sub-channel Increment
+172	Sub-channel Decrement
+173	Alternate Audio Increment
+174	Alternate Audio Decrement
+175-17F	Reserved
+180	Application Launch Buttons
+181	AL Launch Button Config Tool
+182	AL Programmable Button Config
+183	AL Consumer Control Config
+184	AL Word Processor
+185	AL Text Editor
+186	AL Spreadsheet
+187	AL Graphics Editor
+188	AL Presentation App
+189	AL Database App
+18A	AL Email Reader
+18B	AL Newsreader
+18C	AL Voicemail
+18D	AL Contacts/Address Book
+18E	AL Calendar/Schedule
+18F	AL Task/Project Manager
+190	AL Log/Journal/Timecard
+191	AL Checkbook/Finance
+192	AL Calculator
+193	AL A/VCapture/Playback
+194	AL Local Machine Browser
+195	AL LAN/WANBrowser
+196	AL Internet Browser
+197	AL Remote Networking/ISPConnect
+198	AL Network Conference
+199	AL Network Chat
+19A	AL Telephony/Dialer
+19B	AL Logon
+19C	AL Logoff
+19D	AL Logon/Logoff
+19E	AL Terminal Lock/Screensaver
+19F	AL Control Panel
+1A0	AL Command Line Processor/Run
+1A1	AL Process/Task Manager
+1A2	AL Select Task/Application
+1A3	AL Next Task/Application
+1A4	AL Previous Task/Application
+1A5	AL Preempt Halt Task/Application
+1A6	AL Integrated Help Center
+1A7	AL Documents
+1A8	AL Thesaurus
+1A9	AL Dictionary
+1AA	AL Desktop
+1AB	AL Spell Check
+1AC	AL Grammar Check
+1AD	AL Wireless Status
+1AE	AL Keyboard Layout
+1AF	AL Virus Protection
+1B0	AL Encryption
+1B1	AL Screen Saver
+1B2	AL Alarms
+1B3	AL Clock
+1B4	AL File Browser
+1B5	AL Power Status
+1B6	AL Image Browser
+1B7	AL Audio Browser
+1B8	AL Movie Browser
+1B9	AL Digital Rights Manager
+1BA	AL Digital Wallet
+1BB-1BB	Reserved
+1BC	AL Instant Messaging
+1BD	AL OEMFeatures Tips Tuto Browser
+1BE	AL OEMHelp
+1BF	AL Online Community
+1C0	AL Entertainment Content Browser
+1C1	AL Online Shopping Browser
+1C2	AL Smart Card Information/Help
+1C3	AL Market Monitor Finance Browser
+1C4	AL Customized Corp News Browser
+1C5	AL Online Activity Browser
+1C6	AL Research/Search Browser
+1C7	AL Audio Player
+# Duplicate in HUTRR75: 1C8 AL Navigation
+1C8	AL Message Status
+1C9	AL Contact Sync
+1CA-1FF	Reserved
+200	Generic GUIApplication Controls
+201	AC New
+202	AC Open
+203	AC Close
+204	AC Exit
+205	AC Maximize
+206	AC Minimize
+207	AC Save
+208	AC Print
+209	AC Properties
+20A-219	Reserved
+21A	AC Undo
+21B	AC Copy
+21C	AC Cut
+21D	AC Paste
+21E	AC Select All
+21F	AC Find
+220	AC Findand Replace
+221	AC Search
+222	AC Go To
+223	AC Home
+224	AC Back
+225	AC Forward
+226	AC Stop
+227	AC Refresh
+228	AC Previous Link
+229	AC Next Link
+22A	AC Bookmarks
+22B	AC History
+22C	AC Subscriptions
+22D	AC Zoom In
+22E	AC Zoom Out
+22F	AC Zoom
+230	AC Full Screen View
+231	AC Normal View
+232	AC View Toggle
+233	AC Scroll Up
+234	AC Scroll Down
+235	AC Scroll
+236	AC Pan Left
+237	AC Pan Right
+238	AC Pan
+239	AC New Window
+23A	AC Tile Horizontally
+23B	AC Tile Vertically
+23C	AC Format
+23D	AC Edit
+23E	AC Bold
+23F	AC Italics
+240	AC Underline
+241	AC Strikethrough
+242	AC Subscript
+243	AC Superscript
+244	AC All Caps
+245	AC Rotate
+246	AC Resize
+247	AC Fliphorizontal
+248	AC Flip Vertical
+249	AC Mirror Horizontal
+24A	AC Mirror Vertical
+24B	AC Font Select
+24C	AC Font Color
+24D	AC Font Size
+24E	AC Justify Left
+24F	AC Justify Center H
+250	AC Justify Right
+251	AC Justify Block H
+252	AC Justify Top
+253	AC Justify Center V
+254	AC Justify Bottom
+255	AC Justify Block V
+256	AC Indent Decrease
+257	AC Indent Increase
+258	AC Numbered List
+259	AC Restart Numbering
+25A	AC Bulleted List
+25B	AC Promote
+25C	AC Demote
+25D	AC Yes
+25E	AC No
+25F	AC Cancel
+260	AC Catalog
+261	AC Buy/Checkout
+262	AC Addto Cart
+263	AC Expand
+264	AC Expand All
+265	AC Collapse
+266	AC Collapse All
+267	AC Print Preview
+268	AC Paste Special
+269	AC Insert Mode
+26A	AC Delete
+26B	AC Lock
+26C	AC Unlock
+26D	AC Protect
+26E	AC Unprotect
+26F	AC Attach Comment
+270	AC Delete Comment
+271	AC View Comment
+272	AC Select Word
+273	AC Select Sentence
+274	AC Select Paragraph
+275	AC Select Column
+276	AC Select Row
+277	AC Select Table
+278	AC Select Object
+279	AC Redo/Repeat
+27A	AC Sort
+27B	AC Sort Ascending
+27C	AC Sort Descending
+27D	AC Filter
+27E	AC Set Clock
+27F	AC View Clock
+280	AC Select Time Zone
+281	AC Edit Time Zones
+282	AC Set Alarm
+283	AC Clear Alarm
+284	AC Snooze Alarm
+285	AC Reset Alarm
+286	AC Synchronize
+287	AC Send/Receive
+288	AC Send To
+289	AC Reply
+28A	AC Reply All
+28B	AC Forward Msg
+28C	AC Send
+28D	AC Attach File
+28E	AC Upload
+28F	AC Download(Save Target As)
+290	AC Set Borders
+291	AC Insert Row
+292	AC Insert Column
+293	AC Insert File
+294	AC Insert Picture
+295	AC Insert Object
+296	AC Insert Symbol
+297	AC Saveand Close
+298	AC Rename
+299	AC Merge
+29A	AC Split
+29B	AC Disribute Horizontally
+29C	AC Distribute Vertically
+29D	AC Next Keyboard Layout Select
+29E	AC Navigation Guidance
+29F	AC Desktop Show All Windows
+# Duplicate in HUTRR77: 2A0 AC Desktop Show All Applications
+2A0	ACSoft Key Left
+2A1	ACSoft Key Right
+2A2-2AF	Reserved
+2B0	AC Idle Keep Alive
+2B1-2BF	Reserved
+2C0	Extended Keyboard Attributes Collection
+2C1	Keyboard Form Factor
+2C2	Keyboard Key Type
+2C3	Keyboard Physical Layout
+2C4	Vendor-Specific Keyboard Physical Layout
+2C5	Keyboard IETF Language Tag Index
+2C6	Implemented Keyboard Input AssistControls
+2C7	Keyboard Input Assist Previous
+2C8	Keyboard Input Assist NextS
+2C9	Keyboard Input Assist Previous Group
+2CA	Keyboard Input Assist NextGroup
+2CB	Keyboard Input Assist Accept
+2CC	Keyboard Input Assist Cancel
+2CB-0x2DF	Reserved
+2E0-4FF	Reserved
+500	Contact Edited
+501	Contact Added
+502	Contact Record Active
+503	Contact Index
+504	Contact Nickname
+505	Contact First Name
+506	Contact Last Name
+507	Contact Full Name
+508	Contact Phone Number Personal
+509	Contact Phone Number Business
+50A	Contact Phone Number Mobile
+50B	Contact Phone Number Pager
+50C	Contact Phone Number Fax
+50D	Contact Phone Number Other
+50E	Contact Email Personal
+50F	Contact Email Business
+510	Contact Email Other
+511	Contact Email Main
+512	Contact Speed Dial Number
+513	Contact Status Flag
+514	Contact Misc.
+515-FFFF	Reserved
+(0d)	Digitizers
+00	Undefined
+01	Digitizer
+02	Pen
+03	Light Pen
+04	Touch Screen
+05	Touch Pad
+06	White Board
+07	Coordinate Measuring Machine
+08	3-D Digitizer
+09	Stereo Plotter
+0A	Articulated Arm
+0B	Armature
+0C	Multiple Point Digitizer
+0D	Free Space Wand
+0E	Device Configuration
+0F	Capacitive Heat Map Digitizer
+10-1F	Reserved
+20	Stylus
+21	Puck
+22	Finger
+23	Device Settings
+24	Character Gesture
+25-2F	Reserved
+30	Tip Pressure
+31	Barrel Pressure
+32	In Range
+33	Touch
+34	Untouch
+35	Tap
+36	Quality
+37	Data Valid
+38	Transducer Index
+39	Tablet Function Keys
+3A	Program Change Keys
+3B	Battery Strength
+3C	Invert
+3D	X Tilt
+3E	Y Tilt
+3F	Azimuth
+40	Altitude
+41	Twist
+42	Tip Switch
+43	Secondary Tip Switch
+44	Barrel Switch
+45	Eraser
+46	Tablet Pick
+47	Confidence
+48	Width
+49	Height
+4A-50	Reserved
+51	Contact Id
+52	Inputmode
+53	Device Index
+54	Contact Count
+55	Contact Max
+56	Scan Time
+57	Surface Switch
+58	Button Switch
+59	Button Type
+5A	Secondary Barrel Switch
+5B	Transducer Serial Number
+5C	Preferred Inking Color
+5D	Preferred Color is Locked
+5E	Preferred Line Width
+5F	Preferred Line Width is Locked
+61	Gesture Character Quality
+62	Character Gesture Data Length
+63	Character Gesture Data
+64	Gesture Character Encoding
+65	UTF8 Character Gesture Encoding Sel
+66	UTF16 Little Endian Character Gesture Encoding Sel
+67	UTF16 Big Endian Character Gesture Encoding Sel
+68	UTF32 Little Endian Character Gesture Encoding
+69	UTF32 Big Endian Character Gesture Encoding
+# Duplicate in HUTRR87: 6A Capacitive Heat Map Protocol Vendor ID
+6A	Gesture Character Enable
+6B	Capacitive Heat Map Protocol Version
+6C	Capacitive Heat Map Frame Data
+6B-6F	Reserved
+70	Preferred Line Style
+71	Preferred Line Style is Locked
+72	Ink
+73	Pencil
+74	Highlighter
+75	Chisel Marker
+76	Brush
+77	No preference
+78-7F	Reserved for future line styles
+80	Digitizer Diagnostic
+81	Digitizer Error
+82	Err Normal Status
+83	Err Transducers Exceeded
+84	Err Full Trans Features Unavail
+85	Err Charge Low
+86-8F	Reserved for future errors
+90	Transducer Software Info.
+91	Transducer Vendor ID
+92	Transducer Product ID
+93	Device Supported Protocols
+94	Transducer Supported Protocols
+95	No Protocol
+96	Wacom AES Protocol
+97	USI Protocol
+98	Microsoft Pen Protocol
+99-9F	Reserved for future transducer protocols
+A0	Supported Report Rates
+A1	Report Rate
+A2	Transducer Connected
+A3	Switch Disabled
+A4	Switch Unimplemented
+A5	Transducer Switches
+A6-FFFF	Reserved
+(0e)	Haptic
+01	Simple Haptic Controller
+02-0F	Reserved
+10	Waveform
+11	Duration
+12-1F	Reserved
+20	Auto Trigger
+21	Manual Trigger
+22	Auto Trigger Associated Control
+23	Intensity
+24	Repeat Count
+25	Retrigger Period
+26	Waveform Vendor Page
+27	Waveform Vendor ID
+28	Waveform Cutoff Time
+29-0x0FFF	Reserved
+1000	Reserved
+1001	WAVEFORM_NONE
+1002	WAVEFORM_STOP
+1003	WAVEFORM_CLICK
+1004	WAVEFORM_BUZZ_CONTINUOUS
+1005	WAVEFORM_RUMBLE_CONTINUOUS
+1006	WAVEFORM_PRESS
+1007	WAVEFORM_RELEASE
+1006-1FFF	Reserved for standard waveforms
+2000	Reserved
+2001-2FFF	Reserved: Vendor Waveforms
+3000-FFFF	Reserved
+(10)	Unicode
+(12)	Eye and Head Trackers
+00	Reserved 
+01	Eye Tracker 
+02	Head Tracker 
+03‐0F	Reserved 
+10	Tracking Data 
+11	Capabilities 
+12	Configuration 
+13	Status 
+14	Control 
+15‐1F	Reserved
+20	Sensor Timestamp 
+21	Position X 
+22	Position Y 
+23	Position Z  
+24	Gaze Point 
+25	Left Eye Position 
+26	Right Eye Position 
+27	Head Position 
+28	Head Direction Point 
+29	Rotation about X axis 
+2A	Rotation about Y axis 
+2B	Rotation about Z axis 
+2C‐FF	Reserved 
+100	Tracker Quality 
+101	Minimum Tracking Distance 
+102	Optimum Tracking Distance 
+103	Maximum Tracking Distance 
+104	Maximum Screen Plane Width 
+105	Maximum Screen Plane Height 
+106‐01FF	Reserved 
+200	Display Manufacturer ID 
+201	Display Product ID 
+202	Display Serial Number 
+203	Display Manufacturer Date 
+204	Calibrated Screen Width 
+205	Calibrated Screen Height 
+206-02FF	Reserved 
+300	Sampling Frequency 
+301	Configuration Status 
+302-03FF	Reserved 
+400	Device Mode Request 
+401-FFFF	Reserved 
+(14)	Auxiliary Display
+00	Undefined
+01	Alphanumeric Display
+02	Auxiliary Display
+03-1F	Reserved
+20	Display Attributes Report
+21	ASCII Character Set
+22	Data Read Back
+23	Font Read Back
+24	Display Control Report
+25	Clear Display
+26	Display Enable
+27	Screen Saver Delay
+28	Screen Saver Enable
+29	Vertical Scroll
+2A	Horizontal Scroll
+2B	Character Report
+2C	Display Data
+2D	Display Status
+2E	Stat Not Ready
+2F	Stat Ready
+30	Err Not a loadable character
+31	Err Font data cannot be read
+32	Cursor Position Report
+33	Row
+34	Column
+35	Rows
+36	Columns
+37	Cursor Pixel Positioning
+38	Cursor Mode
+39	Cursor Enable
+3A	Cursor Blink
+3B	Font Report
+3C	Font Data
+3D	Character Width
+3E	Character Height
+3F	Character Spacing Horizontal
+40	Character Spacing Vertical
+41	Unicode Character Set
+42	Font 7-Segment
+43	7-Segment Direct Map
+44	Font 14-Segment
+45	14-Segment Direct Map
+46	Display Brightness
+47	Display Contrast
+48	Character Attribute
+49	Attribute Readback
+4A	Attribute Data
+4B	Char Attr Enhance
+4C	Char Attr Underline
+4D	Char Attr Blink
+4E-7F	Reserved
+80	Bitmap Size X
+81	Bitmap Size Y
+82	Max Blit Size
+83	Bit Depth Format
+84	Display Orientation
+85	Palette Report
+86	Palette Data Size
+87	Palette Data Offset
+88	Palette Data
+89	Reserved
+8A	Blit Report
+8B	Blit Rectangle X1
+8C	Blit Rectangle Y1
+8D	Blit Rectangle X2
+8E	Blit Rectangle Y2
+8F	Blit Data
+90	Soft Button
+91	Soft Button ID
+92	Soft Button Side
+93	Soft Button Offset1
+94	Soft Button Offset2
+95	Soft Button Report
+96-C1	Reserved
+C2	Soft Keys
+C3-CB	Reserved
+CC	Display Data Extensions
+DD-CE	Reserved
+CF	Character Mapping
+D0-DC	Reserved
+DD	Unicode Equivalent
+DE	Reserved
+DF	Character Page Mapping
+F0-FE	Reserved
+FF	Request Report
+(20)	Sensor
+00	Undefined
+01	Sensor
+02-0F	Reserved
+10	Biometric
+11	Biometric Human Presence
+12	Biometric Human Proximity
+13	Biometric Human Touch
+14	Biometric: Blood Pressure
+15	Biometric: Body Temperature
+16	Biometric: Heart Rate
+17	Biometric: Heart Rate Variability
+18	Biometric: Peripheral Oxygen Saturation
+19	Biometric: Respiratory Rate
+1A-1F	Biometric: Reserved
+20	Electrical
+21	Electrical: Capacitance
+22	Electrical: Current
+23	Electrical: Power
+24	Electrical: Inductance
+25	Electrical: Resistance
+26	Electrical: Voltage
+27	Electrical: Potentiometer
+28	Electrical: Frequency
+29	Electrical: Period
+2A-2F	Electrical: Reserved
+30	Environmental
+31	Environmental: Atmospheric Pressure
+32	Environmental: Humidity
+33	Environmental: Temperature
+34	Environmental: Wind Direction
+35	Environmental: Wind Speed
+36	Environmental: Air Quality
+37	Environmental: Heat Index
+38	Environmental: Surface Temperature
+39	Environmental: Volatile Organic Compounds
+3A	Environmental: Object Presence
+3B	Environmental: Object Proximity
+3C-3F	Environmental: Reserved
+40	Light
+41	Light: Ambient Light
+42	Light: Consumer Infrared
+43	Light: Infrared Light
+44	Light: Visible Light
+45	Light: Ultraviolet Light
+46-4F	Light: Reserved
+50	Location
+51	Location: Broadcast
+52	Location: Dead Reckoning
+53	Location: GPS
+54	Location: Lookup
+55	Location: Other
+56	Location: Static
+57	Location: Triangulation
+58-5F	Location: Reserved
+60	Mechanical
+61	Mechanical: Boolean Switch
+62	Mechanical: Boolean Switch Array
+63	Mechanical: Multivalue Switch
+64	Mechanical: Force
+65	Mechanical: Pressure
+66	Mechanical: Strain
+67	Mechanical: Weight
+68	Mechanical: Haptic Vibrator
+69	Mechanical: Hall Effect Switch
+6A-6F	Mechanical: Reserved
+70	Motion
+71	Motion: Accelerometer 1D
+72	Motion: Accelerometer 2D
+73	Motion: Accelerometer 3D
+74	Motion: Gyrometer 1D
+75	Motion: Gyrometer 2D
+76	Motion: Gyrometer 3D
+77	Motion: Motion Detector
+78	Motion: Speedometer
+79	Motion: Accelerometer
+7A	Motion: Gyrometer
+7B	Motion: Gravity Vector
+7C	Motion: Linear Accelerometer
+7D-7F	Motion: Reserved
+80	Orientation
+81	Orientation: Compass 1D
+82	Orientation: Compass 2D
+83	Orientation: Compass 3D
+84	Orientation: Inclinometer 1D
+85	Orientation: Inclinometer 2D
+86	Orientation: Inclinometer 3D
+87	Orientation: Distance 1D
+88	Orientation: Distance 2D
+89	Orientation: Distance 3D
+8A	Orientation: Device Orientation
+8B	Orientation: Compass
+8C	Orientation: Inclinometer
+8D	Orientation: Distance
+8E	Orientation: Relative Orientation
+8F	Orientation: Simple Orientation
+90	Scanner
+91	Scanner: Barcode
+92	Scanner: RFID
+93	Scanner: NFC
+94-9F	Scanner: Reserved
+A0	Time
+A1	Time: Alarm Timer
+A2	Time: Real Time Clock
+A3-AF	Time: Reserved
+B0	Personal Activity
+B1	Personal Activity: Activity Detection
+B2	Personal Activity: Device Position
+B3	Personal Activity: Pedometer
+B4	Personal Activity: Step Detection
+B5-BF	Personal Activity: Reserved
+C0	Orientation Extended
+C1	Orientation Extended: Geomagnetic Orientation
+C2	Orientation Extended: Magnetometer
+C3-CF	Orientation Extended: Reserved
+D0-DF	Reserved
+E0	Other
+E1	Other: Custom
+E2	Other: Generic
+E3	Other: Generic Enumerator
+E4-EF	Other: Reserved
+F0-FF	Reserved for Vendors/OEMs
+0100-01FF	Reserved
+0200	Event
+0201	Event: Sensor State
+0202	Event: Sensor Event
+0203-02FF	Reserved
+0300	Property
+0301	Property: Friendly Name
+0302	Property: Persistent Unique ID
+0303	Property: Sensor Status
+0304	Property: Minimum Report Interval
+0305	Property: Sensor Manufacturer
+0306	Property: Sensor Model
+0307	Property: Sensor Serial Number
+0308	Property: Sensor Description
+0309	Property: Sensor Connection Type
+030A	Property: Sensor Device Path
+030B	Property: Hardware Revision
+030C	Property: Firmware Version
+030D	Property: Release Date
+030E	Property: Report Interval
+030F	Property: Change Sensitivity Absolute
+0310	Property: Change Sensitivity Percent of Range
+0311	Property: Change Sensitivity Percent Relative
+0312	Property: Accuracy
+0313	Property: Resolution
+0314	Property: Maximum
+0315	Property: Minimum
+0316	Property: Reporting State
+031A	Property: Maximum FIFO Events
+031B	Property: Report Latency
+031C	Property: Flush FIFO Events
+031D	Property: Maximum Power Consumption
+031E-03FF	Property: Reserved
+0400	Data Field: Location
+0401	Data Field: Location Reserved
+0402	Data Field: Altitude Antenna Sea Level
+0403	Data Field: Differential Reference Station ID
+0404	Data Field: Altitude Ellipsoid Error
+0405	Data Field: Altitude Ellipsoid
+0406	Data Field: Altitude Sea Level Error
+0407	Data Field: Altitude Sea Level
+0408	Data Field: Differential GPS Data Age
+0409	Data Field: Error Radius
+040A	Data Field: Fix Quality
+040B	Data Field: Fix Type
+040C	Data Field: Geoidal Separation
+040D	Data Field: GPS Operation Mode
+040E	Data Field: GPS Selection Mode
+040F	Data Field: GPS Status
+0410	Data Field: Position Dilution of Precision
+0411	Data Field: Horizontal Dilution of Precision
+0412	Data Field: Vertical Dilution of Precision
+0413	Data Field: Latitude
+0414	Data Field: Longitude
+0415	Data Field: True Heading
+0416	Data Field: Magnetic Heading
+0417	Data Field: Magnetic Variation
+0418	Data Field: Speed
+0419	Data Field: Satellites in View
+041A	Data Field: Satellites in View Azimuth
+041B	Data Field: Satellites in View Elevation
+041C	Data Field: Satellites in View IDs
+041D	Data Field: Satellites in View PRNs
+041E	Data Field: Satellites in View S/N Ratios
+041F	Data Field: Satellites Used Count
+0420	Data Field: Satellites Used PRNs
+0421	Data Field: NMEA Sentence
+0422	Data Field: Address Line 1
+0423	Data Field: Address Line 2
+0424	Data Field: City
+0425	Data Field: State or Province
+0426	Data Field: Country or Region
+0427	Data Field: Postal Code
+0428-0429	Data Field: Location Reserved
+042A	Property: Location
+042B	Property: Location Desired Accuracy
+042C-042F	Property: Location Reserved
+0430	Data Field: Environmental
+0431	Data Field: Atmospheric Pressure
+0432	Data Field: Reserved
+0433	Data Field: Relative Humidity
+0434	Data Field: Temperature
+0435	Data Field: Wind Direction
+0436	Data Field: Wind Speed
+0437	Data Field: Air Quality Index
+0438	Data Field: Equivalent CO2
+0439	Data Field: Volatile Organic Compound Concentration
+043A	Data Field: Object Presence
+043B	Data Field: Object Proximity Range
+043C	Data Field: Object Proximity Out of Range
+043D-043F	Data Field: Environmental Reserved
+0440	Property: Environmental
+0441	Property: Reference Pressure
+0442-044F	Property: Environmental Reserved
+0450	Data Field: Motion
+0451	Data Field: Motion State
+0452	Data Field: Acceleration
+0453	Data Field: Acceleration Axis X
+0454	Data Field: Acceleration Axis Y
+0455	Data Field: Acceleration Axis Z
+0456	Data Field: Angular Velocity
+0457	Data Field: Angular Velocity about X Axis
+0458	Data Field: Angular Velocity about Y Axis
+0459	Data Field: Angular Velocity about Z Axis
+045A	Data Field: Angular Position
+045B	Data Field: Angular Position about X Axis
+045C	Data Field: Angular Position about Y Axis
+045D	Data Field: Angular Position about Z Axis
+045E	Data Field: Motion Speed
+045F	Data Field: Motion Intensity
+0460-046F	Data Field: Motion Reserved
+0470	Data Field: Orientation
+0471	Data Field: Heading
+0472	Data Field: Heading X Axis
+4073	Data Field: Heading Y Axis
+0474	Data Field: Heading Z Axis
+0475	Data Field: Heading Compensated Magnetic North
+0476	Data Field: Heading Compensated True North
+0477	Data Field: Heading Magnetic North
+0478	Data Field: Heading True North
+0479	Data Field: Distance
+047A	Data Field: Distance X Axis
+047B	Data Field: Distance Y Axis
+047C	Data Field: Distance Z Axis
+047D	Data Field: Distance Out-of-Range
+047E	Data Field: Tilt
+047F	Data Field: Tilt X Axis
+0480	Data Field: Tilt Y Axis
+0481	Data Field: Tilt Z Axis
+0482	Data Field: Rotation Matrix
+0483	Data Field: Quaternion
+0484	Data Field: Magnetic Flux
+0485	Data Field: Magnetic Flux X Axis
+0486	Data Field: Magnetic Flux Y Axis
+0487	Data Field: Magnetic Flux Z Axis
+0488	Data Field: Magnetometer Accuracy
+0489	Data Field: Simple Orientation Direction
+048A-048F	Data Field: Orientation Reserved
+0490	Data Field: Mechanical
+0491	Data Field: Boolean Switch State
+0492	Data Field: Boolean Switch Array States
+0493	Data Field: Multivalue Switch Value
+0494	Data Field: Force
+0495	Data Field: Absolute Pressure
+0496	Data Field: Gauge Pressure
+0497	Data Field: Strain
+0498	Data Field: Weight
+0498-049F	Data Field: Mechanical Reserved
+04A0	Property: Mechanical
+04A1	Property: Vibration State
+04A2	Property: Forward Vibration Speed
+04A3	Property: Backward Vibration Speed
+04A4-04AF	Property: Mechanical Reserved
+04B0	Data Field: Biometric
+04B1	Data Field: Human Presence
+04B2	Data Field: Human Proximity Range
+04B3	Data Field: Human Proximity Out of Range
+04B4	Data Field: Human Touch State
+04B5	Data Field: Blood Pressure
+04B6	Data Field: Blood Pressure Diastolic
+04B7	Data Field: Blood Pressure Systolic
+04B8	Data Field: Heart Rate
+04B9	Data Field: Resting Heart Rate
+04BA	Data Field: Heartbeat Interval
+04BB	Data Field: Respiratory Rate
+04BC	Data Field: SpO2
+04BD-04CF	Data Field: Biometric Reserved
+04D0	Data Field: Light
+04D1	Data Field: Illuminance
+04D2	Data Field: Color Temperature
+04D3	Data Field: Chromaticity
+04D4	Data Field: Chromaticity X
+04D5	Data Field: Chromaticity Y
+04D6	Data Field: Consumer IR Sentence Receive
+04D7	Data Field: Infrared Light
+04D8	Data Field: Red Light
+04D9	Data Field: Green Light
+04DA	Data Field: Blue Light
+04DB	Data Field: Ultraviolet A Light
+04DC	Data Field: Ultraviolet B Light
+04DD	Data Field: Ultraviolet Index
+04DE-04DF	Data Field: Light Reserved
+04E0	Property: Light
+04E1	Property: Consumer IR Sentence Send
+04E2-04EF	Property: Light Reserved
+04F0	Data Field: Scanner
+04F1	Data Field: RFID Tag 40 Bit
+04F2	Data Field: NFC Sentence Receive
+04F3-04F7	Data Field: Scanner Reserved
+04F8	Property: Scanner
+04F9	Property: NFC Sentence Send
+04FA-04FF	Property: Scanner Reserved
+0500	Data Field: Electrical
+0501	Data Field: Capacitance
+0502	Data Field: Current
+0503	Data Field: Electrical Power
+0504	Data Field: Inductance
+0505	Data Field: Resistance
+0506	Data Field: Voltage
+0507	Data Field: Frequency
+0508	Data Field: Period
+0509	Data Field: Percent of Range
+050A-051F	Data Field: Electrical Reserved
+0520	Data Field: Time
+0521	Data Field: Year
+0522	Data Field: Month
+0523	Data Field: Day
+0524	Data Field: Day of Week
+
+0525	Data Field: Hour
+0526	Data Field: Minute
+0527	Data Field: Second
+0528	Data Field: Millisecond
+0529	Data Field: Timestamp
+052A	Data Field: Julian Day of Year
+052B	Data Field: Time Since System Boot
+052C-052F	Data Field: Time Reserved
+0530	Property: Time
+0531	Property: Time Zone Offset from UTC
+0532	Property: Time Zone Name
+0533	Property: Daylight Savings Time Observed
+0534	Property: Time Trim Adjustment
+0535	Property: Arm Alarm
+0535-053F	Property: Time Reserved
+0540	Data Field: Custom
+0541	Data Field: Custom Usage
+0542	Data Field: Custom Boolean Array
+0543	Data Field: Custom Value
+0544	Data Field: Custom Value 1
+0545	Data Field: Custom Value 2
+0546	Data Field: Custom Value 3
+0547	Data Field: Custom Value 4
+0548	Data Field: Custom Value 5
+0549	Data Field: Custom Value 6
+054A	Data Field: Custom Value 7
+054B	Data Field: Custom Value 8
+054C	Data Field: Custom Value 9
+054D	Data Field: Custom Value 10
+054E	Data Field: Custom Value 11
+054F	Data Field: Custom Value 12
+0550	Data Field: Custom Value 13
+0551	Data Field: Custom Value 14
+0552	Data Field: Custom Value 15
+0553	Data Field: Custom Value 16
+0554	Data Field: Custom Value 17
+0555	Data Field: Custom Value 18
+0556	Data Field: Custom Value 19
+0557	Data Field: Custom Value 20
+0558	Data Field: Custom Value 21
+0559	Data Field: Custom Value 22
+055A	Data Field: Custom Value 23
+055B	Data Field: Custom Value 24
+055C	Data Field: Custom Value 25
+055D	Data Field: Custom Value 26
+055E	Data Field: Custom Value 27
+055F	Data Field: Custom Value 28
+0560	Data Field: Generic
+0561	Data Field: Generic GUID or PROPERTYKEY
+0562	Data Field: Generic Category GUID
+0563	Data Field: Generic Type GUID
+0564	Data Field: Generic Event PROPERTYKEY
+0565	Data Field: Generic Property PROPERTYKEY
+0566	Data Field: Generic Data Field PROPERTYKEY
+0567	Data Field: Generic Event
+0568	Data Field: Generic Property
+0569	Data Field: Generic Data Field
+056A	Data Field: Enumerator Table Row Index
+056B	Data Field: Enumerator Table Row Count
+056C	Data Field: Generic GUID or PROPERTYKEY kind
+056D	Data Field: Generic GUID
+056E	Data Field: Generic PROPERTYKEY
+056F	Data Field: Generic Top Level Collection ID
+0570	Data Field: Generic Report ID
+0571	Data Field: Generic Report Item Position Index
+0572	Data Field: Generic Firmware VARTYPE
+0573	Data Field: Generic Unit of Measure
+0574	Data Field: Generic Unit Exponent
+0575	Data Field: Generic Report Size
+0576	Data Field: Generic Report Count
+0577-057F	Data Field: Generic Reserved
+0580	Property: Generic
+0581	Property: Enumerator Table Row Index
+0582	Property: Enumerator Table Row Count
+0583-058F	Property: Generic Reserved
+0590	Data Field: Personal Activity
+0591	Data Field: Activity Type
+0592	Data Field: Activity State
+0593	Data Field: Device Position
+0594	Data Field: Step Count
+0595	Data Field: Step Count Reset
+0596	Data Field: Step Duration
+0597	Data Field: Step Type
+0598-059F	Data Field: Personal Activity Reserved
+05A0	Property: Minimum Activity Detection Interval
+05A1	Property: Supported Activity Types
+05A2	Property: Subscribed Activity Types
+05A3	Property: Supported Step Types
+05A4	Property: Subscribed Step Types
+05A5	Property: Floor Height
+05A6-05AF	Property: Personal Activity Reserved
+05B0	Data Field: Custom Type ID
+05B1-05BF	Data Field: Custom Reserved
+05C0-07FF	Reserved for future use as Sensor Types, Data Fields and Properties
+
+0800-0FF	Reserved for use as Selection Values
+
+0800	Sensor State: Undefined
+0801	Sensor State: Ready
+0802	Sensor State: Not Available
+0803	Sensor State: No Data Sel
+0804	Sensor State: Initializing
+0805	Sensor State: Access Denied
+0806	Sensor State: Error
+0810	Sensor Event: Unknown
+0811	Sensor Event: State Changed
+0812	Sensor Event: Property Changed
+0813	Sensor Event: Data Updated
+0814	Sensor Event: Poll Response
+0815	Sensor Event: Change Sensitivity
+0816	Sensor Event: Range Maximum Reached
+0817	Sensor Event: Range Minimum Reached
+0818	Sensor Event: High Threshold Cross Upward
+0819	Sensor Event: High Threshold Cross Downward
+081A	Sensor Event: Low Threshold Cross Upward
+081B	Sensor Event: Low Threshold Cross Downward
+081C	Sensor Event: Zero Threshold Cross Upward
+081D	Sensor Event: Zero Threshold Cross Downward
+081E	Sensor Event: Period Exceeded
+081F	Sensor Event: Frequency Exceeded
+0820	Sensor Event: Complex Trigger
+
+0830	Connection Type: PC Integrated
+0831	Connection Type: PC Attached
+0832	Connection Type: PC External
+
+0840	Reporting State: Report No Events
+0841	Reporting State: Report All Events
+0842	Reporting State: Report Threshold Events
+0843	Reporting State: Wake On No Events
+0844	Reporting State: Wake On All Events
+0845	Reporting State: Wake On Threshold Events
+0317	Property: Sampling Rate
+0318	Property: Response Curve
+0319	Property: Power State
+0850	Power State: Undefined
+0851	Power State: D0 Full Power
+0852	Power State: D1 Low Power
+0853	Power State: D2 Standby Power with Wakeup
+0854	Power State: D3 Sleep with Wakeup
+0855	Power State: D4 Power Off
+
+0860	Accuracy: Default
+0861	Accuracy: High
+0862	Accuracy: Medium
+0863	Accuracy: Low
+
+0870	Fix Quality: No Fix
+0871	Fix Quality: GPS
+0872	Fix Quality: DGPS
+040B	Data Field: Fix Type NAry 1.10
+0880	Fix Type: No Fix
+0881	Fix Type: GPS SPS Mode, Fix Valid
+0882	Fix Type: DGPS SPS Mode, Fix Valid
+0883	Fix Type: GPS PPS Mode, Fix Valid
+0884	Fix Type: Real Time Kinematic
+0885	Fix Type: Float RTK
+0886	Fix Type: Estimated (dead reckoned)
+0887	Fix Type: Manual Input Mode
+0888	Fix Type: Simulator Mode
+0890	GPS Operation Mode: Manual
+0891	GPS Operation Mode: Automatic
+08A0	GPS Selection Mode: Autonomous
+08A1	GPS Selection Mode: DGPS
+08A2	GPS Selection Mode: Estimated (dead reckoned)
+08A3	GPS Selection Mode: Manual Input
+08A4	GPS Selection Mode: Simulator
+08A5	GPS Selection Mode: Data Not Valid
+08B0	GPS Status: Data Valid
+08B1	GPS Status: Data Not Valid
+
+08C0	Day of Week: Sunday
+08C1	Day of Week: Monday
+08C2	Day of Week: Tuesday
+08C3	Day of Week: Wednesday
+08C4	Day of Week: Thursday
+08C5	Day of Week: Friday
+08C6	Day of Week: Saturday
+
+08D0	Kind: Category
+08D1	Kind: Type
+08D2	Kind: Event
+08D3	Kind: Property
+08D4	Kind: Data Field
+
+08E0	Magnetometer Accuracy: Low
+08E1	Magnetometer Accuracy: Medium
+08E2	Magnetometer Accuracy: High
+
+08F0	Simple Orientation Direction: Not Rotated
+08F1	Simple Orientation Direction: Rotated 90 Degrees
+08F2	Simple Orientation Direction:  Rotated 180 Degrees
+08F3	Simple Orientation Direction:  Rotated 270 Degrees
+08F4	Simple Orientation Direction: Face Up
+08F5	Simple Orientation Direction: Face Down
+
+0900	VT_NULL: Empty
+0901	VT_BOOL: Boolean
+0902	VT_UI1: Byte
+0903	VT_I1: Character
+0904	VT_UI2: Unsigned Short
+0905	VT_I2: Short
+0906	VT_UI4: Unsigned Long
+0907	VT_I4: Long
+0908	VT_UI8: Unsigned Long Long
+0909	VT_I8: Long Long
+090A	VT_R4: Float
+090B	VT_R8: Double
+090C	VT_WSTR: Wide String
+090D	VT_STR: Narrow String
+090E	VT_CLSID: Guid
+090F	VT_VECTOR|VT_UI1: Opaque Structure
+0910	VT_F16E0: HID 16-bit Float with Unit Exponent 0
+0911	VT_F16E1: HID 16-bit Float with Unit Exponent 1
+0912	VT_F16E2: HID 16-bit Float with Unit Exponent 2
+0913	VT_F16E3: HID 16-bit Float with Unit Exponent 3
+0914	VT_F16E4: HID 16-bit Float with Unit Exponent 4
+0915	VT_F16E5: HID 16-bit Float with Unit Exponent 5
+0916	VT_F16E6: HID 16-bit Float with Unit Exponent 6
+0917	VT_F16E7: HID 16-bit Float with Unit Exponent 7
+0918	VT_F16E8: HID 16-bit Float with Unit Exponent 8
+0919	VT_F16E9: HID 16-bit Float with Unit Exponent 9
+091A	VT_F16EA: HID 16-bit Float with Unit Exponent A
+091B	VT_F16EB: HID 16-bit Float with Unit Exponent B
+091C	VT_F16EC: HID 16-bit Float with Unit Exponent C
+091D	VT_F16ED: HID 16-bit Float with Unit Exponent D
+091E	VT_F16EE: HID 16-bit Float with Unit Exponent E
+091F	VT_F16EF: HID 16-bit Float with Unit Exponent F
+0920	VT_F32E0: HID 32-bit Float with Unit Exponent 0
+0921	VT_F32E1: HID 32-bit Float with Unit Exponent 1
+0922	VT_F32E2: HID 32-bit Float with Unit Exponent 2
+0923	VT_F32E3: HID 32-bit Float with Unit Exponent 3
+0924	VT_F32E4: HID 32-bit Float with Unit Exponent 4
+0925	VT_F32E5: HID 32-bit Float with Unit Exponent 5
+0926	VT_F32E6: HID 32-bit Float with Unit Exponent 6
+0927	VT_F32E7: HID 32-bit Float with Unit Exponent 7
+0928	VT_F32E8: HID 32-bit Float with Unit Exponent 8
+0929	VT_F32E9: HID 32-bit Float with Unit Exponent 9
+092A	VT_F32EA: HID 32-bit Float with Unit Exponent A
+092B	VT_F32EB: HID 32-bit Float with Unit Exponent B
+092C	VT_F32EC: HID 32-bit Float with Unit Exponent C
+092D	VT_F32ED: HID 32-bit Float with Unit Exponent D
+092E	VT_F32EE: HID 32-bit Float with Unit Exponent E
+092F	VT_F32EF: HID 32-bit Float with Unit Exponent F
+0930	Activity Type: Unknown
+0931	Activity Type: Stationary
+0932	Activity Type: Fidgeting
+0933	Activity Type: Walking
+0934	Activity Type: Running
+0935	Activity Type: In Vehicle
+0936	Activity Type: Biking
+0937	Activity Type: Idle
+
+
+0940	Unit: Not Specified
+0941	Unit: Lux
+0942	Unit: Degrees Kelvin
+0943	Unit: Degrees Celsius
+0944	Unit: Pascal
+0945	Unit: Newton
+0946	Unit: Meters/Second
+0947	Unit: Kilogram
+0948	Unit: Meter
+0949	Unit: Meters/Second/Second
+094A	Unit: Farad
+094B	Unit: Ampere
+094C	Unit: Watt
+094D	Unit: Henry
+094E	Unit: Ohm
+094F	Unit: Volt
+0950	Unit: Hertz
+0951	Unit: Bar
+0952	Unit: Degrees Anti-clockwise
+0953	Unit: Degrees Clockwise
+0954	Unit: Degrees
+0955	Unit: Degrees/Second
+0956	Unit: Degrees/Second/Second
+0957	Unit: Knot
+0958	Unit: Percent
+0959	Unit: Second
+095A	Unit: Millisecond
+095B	Unit: G
+095C	Unit: Bytes
+095D	Unit: Milligauss
+095E	Unit: Bits
+0960	Activity State: No State Change
+0961	Activity State: Start Activity
+0962	Activity State: End Activity
+0970	Exponent 0: 1
+0971	Exponent 1: 10
+0972	Exponent 2: 100
+0973	Exponent 3: 1 000
+0974	Exponent 4: 10 000
+0975	Exponent 5: 100 000
+0976	Exponent 6: 1 000 000
+0977	Exponent 7: 10 000 000
+0978	Exponent 8: 0.00 000 001
+0979	Exponent 9: 0.0 000 001
+097A	Exponent A: 0.000 001
+097B	Exponent B: 0.00 001
+097C	Exponent C: 0.0 001
+097D	Exponent D: 0.001
+097E	Exponent E: 0.01
+097F	Exponent F: 0.1
+0980	Device Position: Unknown
+0981	Device Position: Unchanged
+0982	Device Position: On Desk
+0983	Device Position: In Hand
+0984	Device Position: Moving in Bag
+0985	Device Position: Stationary in Bag
+
+09A0-09FF	Reserved for use as Selection Values
+1000-EFFF	Reserved for use as “Data Fields with Modifiers”
+F000-FFFF	Reserved for Vendors/OEMs
+(40)	Medical Instruments
+00	Undefined
+01	Medical Ultrasound
+02-1F	Reserved
+20	VCR/Acquisition
+21	Freeze/Thaw
+22	Clip Store
+23	Update
+24	Next
+25	Save
+26	Print
+27	Microphone Enable
+28-3F	Reserved
+40	Cine
+41	Transmit Power
+42	Volume
+43	Focus
+44	Depth
+45-5F	Reserved
+60	Soft Step-Primary
+61	Soft Step-Secondary
+62-6F	Reserved
+70	Depth Gain Compensation
+71-7F	Reserved
+80	Zoom Select
+81	Zoom Adjust
+82	Spectral Doppler Mode Select
+83	Spectral Doppler Adjust
+84	Color Doppler Mode Select
+85	Color Doppler Adjust
+86	Motion Mode Select
+87	Motion Mode Adjust
+88	2-D Mode Select
+89	2-D Mode Adjust
+8A-9F	Reserved
+A0	Soft Control Select
+A1	Soft Control Adjust
+A2-FFFF	Reserved
+(41)	Braille Display
+00	Undefined
+01	Braille Display
+02	Braille Row
+03	8 Dot Braille Cell
+04	6 Dot Braille Cell
+05	Number of Braille Cells
+06	Screen Reader Control
+07	Screen Reader Identifier
+08‐F9	 Reserved
+FA	Router Set 1
+FB	Router Set 2
+FC	Router Set 3
+100	Router Button
+200	Braille Buttons
+201	Braille Keyboard Dot 1
+202	Braille Keyboard Dot 2
+203	Braille Keyboard Dot 3
+204	Braille Keyboard Dot 4
+205	Braille Keyboard Dot 5
+206	Braille Keyboard Dot 6
+207	Braille Keyboard Dot 7
+208	Braille Keyboard Dot 8
+209	Braille Keyboard Space
+20A	Braille Keyboard Left Space
+20B	Braille Keyboard Right Space
+20C	Braille Face Controls
+20D	Braille Left Controls
+20E	Braille Right Controls
+20F	Braille Top Controls
+210	Braille Joystick Center
+211	Braille Joystick Up
+212	Braille Joystick Down
+213	Braille Joystick Left
+224	Braille Joystick Right
+225	Braille D ‐ Pad Center
+226	Braille D ‐ Pad Up
+217	Braille D ‐ Pad Down
+218	Braille D ‐ Pad Left
+219	Braille D ‐ Pad Right
+21A	Braille Pan Left
+21B	Braille Pan Right
+21C	Braille Rocker Up
+21D	Braille Rocker Down
+21E	Braille Rocker Press
+21F‐2FF	Reserved
+(59)	Lighting and Illumination
+00	Undefined
+01	Lamp Array
+02	Lamp Array Attributes Report
+03	Lamp Count
+04	Bounding Box Width In Micrometers
+05	Bounding Box Height In Micrometers
+06	Bounding Box Depth In Micrometers
+07	Lamp Array Kind
+08	Min Update Interval In Microseconds
+09-1F	Reserved
+20	Lamp Attributes Request Report
+21	Lamp Id
+22	Lamp Attributes Response Report
+23	Position X In Micrometers
+24	Position Y In Micrometers
+25	Position Z In Micrometers
+26	Lamp Purposes
+27	Update Latency In Microseconds
+28	Red Level Count
+29	Green Level Count
+2A	Blue Level Count
+2B	Intensity Level Count
+2C	Is Programmable
+2D	Input Binding
+2E-4F	Reserved
+50	Lamp Multi Update Report
+51	Red Update Channel
+52	Green Update Channel
+53	Blue Update Channel
+54	Intensity Update Channel
+55	Lamp Update Flags
+56-5F	Reserved
+60	Lamp Range Update Report
+61	Lamp Id Start
+62	Lamp Id End
+63-6F	Reserved
+70	Lamp Array Control Report
+71	Autonomous Mode
+72-FFFF	Reserved
+(80)	Monitor
+00	Undefined
+01	Monitor Control
+02	EDID Information
+03	VDIF Information
+04	VESA Version
+05	On Screen Display
+06	Auto Size Center
+07	Polarity Horz Synch
+08	Polarity Vert Synch
+09	Sync Type
+0A	Screen Position
+0B	Horizontal Frequency
+0C	Vertical Frequency
+0D-FFFF	Reserved
+(81)	Monitor Enumerated Values
+00	unassigned
+(82)	VESA Virtual Controls
+00-0F	Reserved
+10	Brightness
+12	Contrast
+16	Video Gain Red
+18	Video Gain Green
+1A	Video Gain Blue
+1C	Focus
+20	Horizontal Position
+22	Horizontal Size
+24	Horizontal Pincushion
+26	Horizontal Pincushion Balance
+28	Horizontal Misconvergence
+2A	Horizontal Linearity
+2C	Horizontal Linearity Balance
+30	Vertical Position
+32	Vertical Size
+34	Vertical Pincushion
+36	Vertical Pincushion Balance
+38	Vertical Misconvergence
+3A	Vertical Linearity
+3C	Vertical Linearity Balance
+40	Parallelogram Distortion
+42	Trapezoidal Distortion
+44	Tilt
+46	Top Corner Distortion Control
+48	Top Corner Distortion Balance
+4A	Bottom Corner Distortion Control
+4C	Bottom Corner Distortion Balance
+56	Moiré Horizontal
+58	Moiré Vertical
+5E	Input Level Select
+60	Input Source Select
+62	Stereo Mode
+6C	Video Black Level Red
+6E	Video Black Level Green
+70	Video Black Level Blue
+71-FFFF	Reserved
+(83)	VESA Command
+00	Undefined
+01	Settings
+02	Degauss
+03-FFFF	Reserved
+(84)	Power Device
+06	Peripheral Device
+07-0F	Reserved
+(85)	Battery System
+(8c)	Bar Code Scanner
+00	Undefined
+01-FFFF	Reserved
+(8d)	Scale
+00	Undefined
+01-FFFF	Reserved
+(8e)	Magnetic Stripe Reading
+00	Undefined
+01-FFFF	Reserved
+(90)	Camera Control
+00	Undefined
+01-1F	Reserved
+20	Camera Auto-focus
+21	Camera Shutter
+(91)	Arcade Page OAAF
+00	Undefined
+01-FFFF	Reserved
+(92)	Gaming Device
+(F1D0)	FIDO Alliance
+00	Undefined
+01	U2F Authenticator Device
+02-1F	Reserved
+20	Input Report Data
+21	Output Report Data
+22-FFFF	Reserved
+(ff00)	Vendor Defined Page 1
+00	Undefined
+01	Vendor Usage 1
+02	Vendor Usage 2
+03-FFFF	Reserved
+(ff0d)	Wacom
+01	Wacom Digitizer
+02	Wacom Pen
+03	Light Pen
+04	Touch Screen
+05	Touch Pad
+06	White Board
+07	Coordinate Measuring Machine
+08	3-D Digitizer
+09	Stereo Plotter
+0A	Articulated Arm
+0B	Armature
+0C	Multiple Point Digitizer
+0D	Free Space Wand
+0E	Device Configuration
+0F-1F	Reserved
+20	Stylus
+21	Puck
+22	Finger
+23	Device Settings
+24-2F	Reserved
+30	Tip Pressure
+31	Barrel Pressure
+32	In Range
+33	Touch
+34	Untouch
+35	Tap
+36	Wacom Sense
+37	Data Valid
+38	Transducer Index
+39	Wacom DigitizerFnKeys
+3A	Program Change Keys
+3B	Battery Strength
+3C	Invert
+3D	X Tilt
+3E	Y Tilt
+3F	Azimuth
+40	Altitude
+41	Twist
+42	Tip Switch
+43	Secondary Tip Switch
+44	Barrel Switch
+45	Eraser
+46	Tablet Pick
+47	Confidence
+48	Width
+49	Height
+4A-50	Reserved
+51	Contact Id
+52	Inputmode
+53	Device Index
+54	Contact Count
+55	Contact Max
+56	Scan Time
+57	Surface Switch
+58	Button Switch
+59	Button Type
+5A	Secondary Barrel Switch
+5B	Transducer Serial Number
+5C	Wacom SerialHi
+5D	Preferred Color is Locked
+5E	Preferred Line Width
+5F	Preferred Line Width is Locked
+70	Preferred Line Style
+71	Preferred Line Style is Locked
+72	Ink
+73	Pencil
+74	Highlighter
+75	Chisel Marker
+76	Brush
+77	Wacom ToolType
+78-7F	Reserved for future line styles
+80	Digitizer Diagnostic
+81	Digitizer Error
+82	Err Normal Status
+83	Err Transducers Exceeded
+84	Err Full Trans Features Unavail
+85	Err Charge Low
+86-8F	Reserved for future errors
+0132	Wacom Distance
+0136	Wacom TouchStrip
+0137	Wacom TouchStrip2
+0138	Wacom TouchRing
+0139	Wacom TouchRingStatus
+0401	Wacom Accelerometer X
+0402	Wacom Accelerometer Y
+0403	Wacom Accelerometer Z
+0404	Wacom Battery Charging
+0454	Wacom TouchOnOff
+043B	Wacom Battery Level
+0910	Wacom ExpressKey00
+0950	Wacom ExpressKeyCap00
+0980	Wacom Mode Change
+0981	Wacom Button Desktop Center
+0982	Wacom Button On Screen Keyboard
+0983	Wacom Button Display Setting
+0986	Wacom Button Touch On/Off
+0990	Wacom Button Home
+0991	Wacom Button Up
+0992	Wacom Button Down
+0993	Wacom Button Left
+0994	Wacom Button Right
+0995	Wacom Button Center
+0D03	Wacom FingerWheel
+0D30	Wacom Offset Left
+0D31	Wacom Offset Top
+0D32	Wacom Offset Right
+0D33	Wacom Offset Bottom
+1002	Wacom DataMode
+1013	Wacom Digitizer Info
